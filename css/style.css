@@ -39,6 +39,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     color: #a5a5a5;
+    background-color:black;
     overflow-x: hidden !important;
     overflow-y: auto !important;
 }
