@@ -294,9 +294,6 @@ blockquote.blockquote::before{
 .font-xlight {
    font-weight: 200;
 }
-.bglight {
-    background: #f6f6f6;
-}
 .bgdefault {
     background: #00bcd4;
 }
