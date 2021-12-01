@@ -166,6 +166,12 @@ button{
    color:white;
 }
 
+.navbar-brand img {
+   margin-top: -12px;
+   padding-right: 12px;
+   margin-left: 13px;
+}
+
 /*common font family*/
 p, .heading-title > span, .process-wrapp li > .pro-step,
 .progress-bars .progress p, .progress-bars .progress .progress-bar span,
@@ -777,6 +783,7 @@ i::before,i::after{
    opacity: 1;
    visibility: visible;
 }
+
 @-webkit-keyframes animationFade {
     from {
         opacity: 0;
@@ -1391,7 +1398,14 @@ i::before,i::after{
       width: 100px; 
    }
    .navbar-nav .nav-link {
-      font-size: 13px;
+      font-size: 20px;
+   }
+   ul.navbar-nav {
+      background: #00000099;
+   }
+   
+   .fixedmenu ul.navbar-nav {
+      background: transparent;
    }
 
    .moveB {
@@ -5329,4 +5343,9 @@ html{
 
 .buttonBar {
     display: none;
+}
+
+#home {
+   height: 100vh;
+   padding-top: 88px;
 }
