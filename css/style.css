@@ -39,7 +39,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     color: #a5a5a5;
-    background-color:rgb(41, 41, 41);
+    background-color:rgb(35, 35, 50);
     overflow-x: hidden !important;
     overflow-y: auto !important;
 }
@@ -1357,7 +1357,6 @@ i::before,i::after{
 @media (max-width: 1366px) {
    .center-brand .sidemenu_btn {
       right: 0;
-   }
 
 } 
 @media (max-width: 1200px) {
@@ -1438,6 +1437,10 @@ visibility:hidden;
 }
 
 @media (max-width: 995px) {
+
+   .moveB2 {
+   margin:50px auto 0 auto;
+   }
    .boxed-nav {
       background: #fff;
    }
