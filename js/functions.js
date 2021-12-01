@@ -147,7 +147,7 @@ $("#submit_btn").click(function() {
       $window.scroll(function () {
          var $scroll = $window.scrollTop();
          var $navbar = $(".static-nav");
-         if ($scroll > 200) {
+         if ($scroll > 100) {
             $navbar.addClass("fixedmenu");
          } else {
             $navbar.removeClass("fixedmenu");
