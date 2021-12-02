@@ -1356,11 +1356,6 @@ i::before,i::after{
    width: 100% !important;
 }
 
-
-.moveBB {
-   margin-bottom: 0px;
-}
-
 /* PHONE MEDIA Qs */
 
 /* IPHONE 13 PRO MAX */
@@ -1374,8 +1369,9 @@ i::before,i::after{
    } 
 
    .moveB2 {
-      margin-bottom: 0px;
+      margin-top: -120px;
    }
+
 
    .cal-convertor {
       margin-bottom: -15px;
@@ -1394,7 +1390,7 @@ and (-webkit-device-pixel-ratio: 3) {
    } 
 
    .moveBB {
-      margin-top: -150px;
+      margin-top: -130px;
 
    }
    .cal-convertor {
@@ -1532,7 +1528,7 @@ and (-webkit-device-pixel-ratio: 3) {
          } 
       
          .moveBB {
-            margin-top: -120px;
+            margin-top: -100px;
       
          }
          .cal-convertor {
@@ -1556,7 +1552,7 @@ and (-webkit-device-pixel-ratio: 3) {
       
          }
          .cal-convertor {
-            margin-bottom: -14px;
+            margin-bottom: -15px;
          }
       
        }
