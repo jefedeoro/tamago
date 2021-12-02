@@ -1357,7 +1357,7 @@ i::before,i::after{
 @media (max-width: 1366px) {
    .center-brand .sidemenu_btn {
       right: 0;
-
+	}
 } 
 @media (max-width: 1200px) {
    
