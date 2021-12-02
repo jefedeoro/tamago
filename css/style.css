@@ -1037,6 +1037,9 @@ i::before,i::after{
     opacity: 0.9;
 }
 
+.cal-convertor {
+   margin-top: -55px;
+}
 
 /*-----Side Menu----*/
 .side-menu {
@@ -1354,10 +1357,242 @@ i::before,i::after{
 }
 
 
+.moveBB {
+   margin-bottom: 0px;
+}
+
+/* PHONE MEDIA Qs */
+
+/* IPHONE 13 PRO MAX */
+@media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+
+   .padding_top {
+      margin-top: -200px;
+   } 
+
+   .moveB2 {
+      margin-bottom: 0px;
+   }
+
+   .cal-convertor {
+      margin-bottom: -15px;
+   }
+
+    }
+
+    /* IPHONE 11 */
+@media only screen 
+and (device-width: 375px) 
+and (device-height: 812px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+   .padding_top {
+      margin-top: -130px;
+   } 
+
+   .moveBB {
+      margin-top: -150px;
+
+   }
+   .cal-convertor {
+      margin-bottom: -15px;
+   }
+
+ }
+ 
+     /* IPHONE 12/11 */
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+   .padding_top {
+      margin-top: -130px;
+   } 
+
+   .moveBB {
+      margin-top: -150px;
+
+   }
+   .cal-convertor {
+      margin-bottom: -15px;
+   }
+
+ }
+
+      /* IPHONE 11 PRO */
+@media only screen 
+and (device-width: 414px) 
+and (device-height: 896px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+   .padding_top {
+      margin-top: -180px;
+   } 
+
+   .moveBB {
+      margin-top: -180px;
+
+   }
+   .cal-convertor {
+      margin-bottom: -15px;
+   }
+
+ }
+
+      /* S20 GALAXY */
+      @media only screen 
+      and (device-width: 412px) 
+      and (device-height: 915px)  {
+      
+         .padding_top {
+            margin-top: -180px;
+         } 
+      
+         .moveBB {
+            margin-top: -180px;
+      
+         }
+         .cal-convertor {
+            margin-bottom: -15px;
+         }
+      
+       }
+
+             /* S20 ultra GALAXY */
+      @media only screen 
+      and (device-width: 384px) 
+      and (device-height: 854px)  {
+      
+         .padding_top {
+            margin-top: -150px;
+         } 
+      
+         .moveBB {
+            margin-top: -150px;
+      
+         }
+         .cal-convertor {
+            margin-bottom: -15px;
+         }
+      
+       }
+
+       
+             /* l GALAXY */
+      @media only screen 
+      and (device-width: 360px) 
+      and (device-height: 800px)  {
+      
+         .padding_top {
+            margin-top: -150px;
+         } 
+      
+         .moveBB {
+            margin-top: -150px;
+      
+         }
+         .cal-convertor {
+            margin-bottom: -15px;
+         }
+      
+       }
+
+              
+             /* l GALAXY */
+      @media only screen 
+      and (device-width: 360px) 
+      and (device-height: 760px)  {
+      
+         .padding_top {
+            margin-top: -130px;
+         } 
+      
+         .moveBB {
+            margin-top: -120px;
+      
+         }
+         .cal-convertor {
+            margin-bottom: -15px;
+         }
+      
+       }
+
+
+                    /* l GALAXY */
+      @media only screen 
+      and (device-width: 412px) 
+      and (device-height: 883px)  {
+      
+         .padding_top {
+            margin-top: -170px;
+         } 
+      
+         .moveBB {
+            margin-top: -120px;
+      
+         }
+         .cal-convertor {
+            margin-bottom: -15px;
+         }
+      
+       }
+
+       
+                    /* i pad */
+      @media only screen 
+      and (device-width: 810px) 
+      and (device-height: 1080px)  {
+      
+         .padding_top {
+            margin-top: -170px;
+         } 
+      
+         .moveBB {
+            margin-top: -220px;
+      
+         }
+         .cal-convertor {
+            margin-bottom: -15px;
+         }
+      
+       }
+
+
+              
+                    /* kindle */
+      @media only screen 
+      and (device-width: 800px) 
+      and (device-height: 1280px)  {
+      
+         .padding_top {
+            margin-top: -330px;
+         } 
+      
+         .moveBB {
+            margin-top: -300px;
+      
+         }
+         .cal-convertor {
+            margin-bottom: -15px;
+         }
+      
+       }
+
+
+
 @media (max-width: 1366px) {
    .center-brand .sidemenu_btn {
       right: 0;
 	}
+
+   .cal-convertor {
+      width:300px;
+      margin-top: -35px;
+   }
 } 
 @media (max-width: 1200px) {
    
@@ -1367,10 +1602,8 @@ i::before,i::after{
 
    .cal-convertor {
       width:300px;
+      margin-top: -35px;
    }
-
-
-   
    
 }
 @media (min-width: 1025px) and (max-width: 1091px) {
@@ -1382,10 +1615,9 @@ i::before,i::after{
    }
    .cal-convertor {
       width:300px;
-   }
-
-   
+   }   
 }
+
 @media (max-width: 1024px) {
    .cal-convertor {
       width:300px;
@@ -1482,6 +1714,7 @@ visibility:hidden;
       display: flex;
       justify-content: center;
       width: 60%;
+      margin-top:20px;
       
    }
    .moveB {
