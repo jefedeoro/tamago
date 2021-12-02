@@ -1439,6 +1439,71 @@ and (-webkit-device-pixel-ratio: 3) {
 
  }
 
+   /* IPHONE 5 PRO */
+@media only screen 
+and (device-width: 320px) 
+and (device-height: 568px) 
+ {
+
+   .padding_top {
+      margin-top: 50px;
+   } 
+
+   .moveBB {
+      margin-top: 170px;
+
+   }
+
+   .cal-convertor {
+      margin-bottom: 0px;
+   }
+
+ }
+
+ /* iphone 6 7 8 plus */ 
+ @media only screen 
+and (device-width: 414px) 
+and (device-height: 736px) 
+ {
+
+   .padding_top {
+      margin-top: 50px;
+   } 
+
+   .moveBB {
+      margin-top: 170px;
+
+   }
+
+   .cal-convertor {
+      margin-bottom: 0px;
+   }
+
+ }
+
+
+ 
+ /* pixel 2 */ 
+ @media only screen 
+and (device-width: 411px) 
+and (device-height: 731px) 
+ {
+
+   .padding_top {
+      margin-top: 50px;
+   } 
+
+   .moveBB {
+      margin-top: 170px;
+
+   }
+
+   .cal-convertor {
+      margin-bottom: 0px;
+   }
+
+ }
+
       /* S20 GALAXY */
       @media only screen 
       and (device-width: 412px) 
@@ -1558,6 +1623,30 @@ and (-webkit-device-pixel-ratio: 3) {
        }
 
 
+                    /* i pad 2 */
+                    @media only screen 
+                    and (device-width: 768px) 
+                    and (device-height: 1024px)  {
+                    
+                       .padding_top {
+                          margin-top: -170px;
+                       } 
+                    
+                       .moveBB {
+                          margin-top: -220px;
+                    
+                       }
+
+                       .moveLeft {
+                          margin-right:600px;
+                       }
+
+                       .cal-convertor {
+                          margin-bottom: -15px;
+                       }
+                    
+                     }
+
               
                     /* kindle */
       @media only screen 
@@ -1578,6 +1667,66 @@ and (-webkit-device-pixel-ratio: 3) {
       
        }
 
+                           /* pixel */
+      @media only screen 
+      and (device-width: 411px) 
+      and (device-height: 731px)  {
+      
+         .padding_top {
+            margin-top: -15px;
+         } 
+      
+         .moveBB {
+            margin-top: 80px;
+      
+         }
+         .cal-convertor {
+            margin-bottom: -10px;
+         }
+      
+       }
+
+
+                           /* galaxy s5 */
+      @media only screen 
+      and (device-width: 360px) 
+      and (device-height: 640px)  {
+      
+         .padding_top {
+            margin-top: -30px;
+         } 
+      
+         .moveBB {
+            margin-top: -30px;
+      
+         }
+         .cal-convertor {
+            margin-bottom: -15px;
+         }
+      
+       }
+
+       
+                           /* galaxy fold */
+                           @media only screen 
+                           and (device-width: 280px) 
+                           and (device-height: 653px)  {
+                           
+                              .padding_top {
+                                 margin-top: -30px;
+                              } 
+                           
+                              .moveBB {
+                                 margin-top: -30px;
+                           
+                              }
+                              .cal-convertor {
+                                 margin-bottom: -75px;
+                              }
+                           
+                            }
+                     
+                            
 
 
 @media (max-width: 1366px) {
@@ -2622,6 +2771,8 @@ visibility:hidden;
       
    }
 }
+
+
 
 
 @media (max-width: 312px) {
